@@ -5,9 +5,10 @@
 </p>
 
 <p align="center">
-  <a href=" https://pradhiba-05.github.io/Tic-Tac-Toe-/">
-    <img src="https://img.shields.io/badge/🎮%20Play%20Game-Live%20Demo-111827?style=for-the-badge"
-    alt=" Play Tic-Tac-Toe"
+  <a href="https://pradhiba-05.github.io/Tic-Tac-Toe-/">
+    <img
+      src="https://img.shields.io/badge/🎮%20Play%20Game-Live%20Demo-111827?style=for-the-badge"
+      alt="Play Tic-Tac-Toe"
     >
   </a>
 </p>
