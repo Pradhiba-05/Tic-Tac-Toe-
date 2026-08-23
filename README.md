@@ -3,14 +3,13 @@
 <p align="center">
   <strong>A modern, interactive and responsive Tic-Tac-Toe game built with pure HTML, CSS and JavaScript.</strong>
 </p>
+
 <p align="center">
-  <a href="https://pradhiba-05.github.io/Tic-Tac-Toe-/">
-    <img
-      src="https://img.shields.io/badge/🎮%20Play%20Game-Live%20Demo-111827?style=for-the-badge"
-      alt="Play Tic-Tac-Toe"
-    >
+  <a href=" https://pradhiba-05.github.io/Tic-Tac-Toe-/">
+    <img src="https://img.shields.io/badge/🎮%20Play%20Game-Live%20Demo-111827?style=for-the-badge" alt=" https://pradhiba-05.github.io/Tic-Tac-Toe-/">
   </a>
 </p>
+
 
 ---
 
