@@ -153,16 +153,6 @@ No installation, npm or build process is required.
 
 ---
 
-## 📸 Preview
-
-<p align="center">
-  <em>Interactive Tic-Tac-Toe game interface</em>
-</p>
-
-<!-- Add a screenshot of your game here later -->
-
----
-
 ## 🎨 Design Highlights
 
 The interface was designed with a focus on:
