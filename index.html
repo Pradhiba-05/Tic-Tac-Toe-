@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A polished, responsive Tic-Tac-Toe game for two players or one player against the computer.">
+  <title>Tic-Tac-Toe | Play a round</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="game-shell">
+    <section class="game-card" aria-labelledby="game-title">
+      <header class="game-header">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div>
+          <p class="eyebrow">The classic, reimagined</p>
+          <h1 id="game-title">Tic-Tac-Toe</h1>
+          <p class="subtitle">A tiny arena for big-brain moves.</p>
+        </div>
+      </header>
+
+      <div class="game-layout">
+        <aside class="sidebar" aria-label="Game controls and score">
+          <div class="mode-panel">
+            <div class="section-heading">
+              <p class="section-label">Game mode</p>
+              <span class="live-dot" aria-hidden="true"></span>
+            </div>
+            <div class="mode-switch" role="group" aria-label="Choose a game mode">
+              <button class="mode-button active" type="button" data-mode="pvp" aria-pressed="true">Two players</button>
+              <button class="mode-button" type="button" data-mode="computer" aria-pressed="false">Vs computer</button>
+            </div>
+          </div>
+
+          <div class="score-panel">
+            <div class="section-heading">
+              <p class="section-label">Scoreboard</p>
+              <span class="score-session">This session</span>
+            </div>
+            <div class="score-grid">
+              <div class="score-item score-x">
+                <span class="score-symbol" aria-hidden="true">X</span>
+                <span class="score-name">Player X</span>
+                <strong id="score-x">0</strong>
+                <span class="score-caption">wins</span>
+              </div>
+              <div class="score-item score-o">
+                <span class="score-symbol" aria-hidden="true">O</span>
+                <span class="score-name" id="player-o-label">Player O</span>
+                <strong id="score-o">0</strong>
+                <span class="score-caption">wins</span>
+              </div>
+              <div class="score-item score-draws">
+                <span class="draw-icon" aria-hidden="true">=</span>
+                <span class="score-name">Draws</span>
+                <strong id="score-draws">0</strong>
+                <span class="score-caption">even rounds</span>
+              </div>
+            </div>
+            <button class="text-button" id="reset-score" type="button">Reset scores</button>
+          </div>
+        </aside>
+
+        <section class="play-area" aria-label="Tic-Tac-Toe board">
+          <div class="status-row" aria-live="polite">
+            <div>
+              <p class="section-label">Current round</p>
+              <h2 id="status-message">X's turn</h2>
+            </div>
+            <span class="turn-chip" id="turn-chip">X</span>
+          </div>
+
+          <div class="board" id="board" role="grid" aria-label="Tic-Tac-Toe board">
+            <button class="cell" type="button" data-index="0" role="gridcell" aria-label="Top left, empty"></button>
+            <button class="cell" type="button" data-index="1" role="gridcell" aria-label="Top center, empty"></button>
+            <button class="cell" type="button" data-index="2" role="gridcell" aria-label="Top right, empty"></button>
+            <button class="cell" type="button" data-index="3" role="gridcell" aria-label="Middle left, empty"></button>
+            <button class="cell" type="button" data-index="4" role="gridcell" aria-label="Center, empty"></button>
+            <button class="cell" type="button" data-index="5" role="gridcell" aria-label="Middle right, empty"></button>
+            <button class="cell" type="button" data-index="6" role="gridcell" aria-label="Bottom left, empty"></button>
+            <button class="cell" type="button" data-index="7" role="gridcell" aria-label="Bottom center, empty"></button>
+            <button class="cell" type="button" data-index="8" role="gridcell" aria-label="Bottom right, empty"></button>
+          </div>
+
+          <div class="play-footer">
+            <p class="round-note" id="round-note">Make the first mark count.</p>
+            <button class="restart-button" id="restart-button" type="button"><span aria-hidden="true">↻</span> Restart game</button>
+          </div>
+        </section>
+      </div>
+    </section>
+    <p class="footer-note">Think ahead<span aria-hidden="true"> · </span>play fair<span aria-hidden="true"> · </span>have fun</p>
+  </main>
+</body>
+</html>
