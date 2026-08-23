@@ -145,7 +145,7 @@ No installation, npm or build process is required.
 
 🎮 **Play the game:**
 
-https://Pradhiba-05.github.io/tic-tac-toe-/
+ https://pradhiba-05.github.io/Tic-Tac-Toe-/
 
 ---
 
